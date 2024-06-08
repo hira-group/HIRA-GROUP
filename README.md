@@ -6,7 +6,7 @@ stability: dev
 ## installation
 
    ````
-   composer require billdu/api-client:dev-master
+   composer ⁸require billdu/api-client:dev-master
    ````
  or require loader.php from package root directory
 
@@ -15,7 +15,7 @@ stability: dev
  first we need to initialize the client like this
 
  ````
- $client = iInvoices\Api\ApiClient(http://api.billdu.com, $publicKey, $privateKey);
+ $client = iInvoices\Api\ApiClient(http://hiragroup.com, $publicKey, $privateKey);
  ````
 
  the client has 4 available resources: Clients, Products, Orders, Invoices you can acces them like this
